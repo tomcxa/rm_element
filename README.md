@@ -2,4 +2,4 @@
 
 
 
-[GitHub Pages](https://tomcxa.github.io/rm-element/)
+[GitHub Pages](https://tomcxa.github.io/rm_element/)
