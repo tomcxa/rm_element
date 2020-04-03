@@ -20,9 +20,6 @@ export default class GameBoard {
     }
 
     insertToDOM(parentEl) {
-        if (!parentEl) {
-            throw new Error('Елемент не задан');
-        }
         parentEl.appendChild(this.boardEl);
     }
 }
