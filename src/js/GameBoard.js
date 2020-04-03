@@ -20,6 +20,8 @@ export default class GameBoard {
     }
 
     insertToDOM(parentEl) {
-        parentEl.appendChild(this.boardEl);
+        if (parentEl) {
+            parentEl.appendChild(this.boardEl);
+        }
     }
 }
