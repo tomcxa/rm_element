@@ -7,7 +7,7 @@ export default class Target {
     }
 
     createTarget() {
-        this.targetEl.setAttribute('src', 'src/img/goblin.png');
+        this.targetEl.setAttribute('src', 'img/goblin.png');
         this.targetEl.classList.add('target-img');
     }
 
